@@ -27,6 +27,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'dfs = src.dfs:main',
             'wall_follower = src.wall_follower:main'
             # add your nodes here
         ],
